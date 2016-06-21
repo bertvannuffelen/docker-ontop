@@ -15,9 +15,11 @@ Official Website Ontop: http://ontop.inf.unibz.it/
 
 
 ## Running the docker
+Let mydir a local configuration path.
+
 
 ```
-sudo docker run  -i -p 8080:8080 --name ontop-webapp -v /home/vagrant/OSLO/docker-ontop/data:/data docker-ontop
+docker run -p 8080:8080 --name ontop-webapp -v $mydir/data:/data tenforce/docker-ontop
 ```
 
 
