@@ -1,4 +1,4 @@
-FROM docker-tomcat
+FROM tenforce/tomcat
 
 MAINTAINER Bert Van Nuffelen <bert.van.nuffelen@tenforce.com>
 
