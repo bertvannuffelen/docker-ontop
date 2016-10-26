@@ -5,6 +5,7 @@ cp /myconfig/* /config
 
 # make cloud enabled configuration possible
 if [ -f /data/tomcat-setenv.sh ] ; then 
+    cp /data/tomcat-setenv.sh /config/tomcat-setenv.sh
     cp /data/tomcat-setenv.sh /usr/share/tomcat7/bin/setenv.sh
 fi
 
